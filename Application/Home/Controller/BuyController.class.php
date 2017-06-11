@@ -2,10 +2,6 @@
 namespace Home\Controller;
 use Think\Controller;
 class BuyController extends Controller {
-    public function index(){
-        session_start();
-        $this->display();
-    }
     //redis连接
     private function connectRedis(){
         $redis=new \Redis();

@@ -237,6 +237,8 @@ function out(){
 		console.log(pro_id);
 		var eventDetails_url = "<?php echo U('Home/Details/Details');?>";
 		var closing_record_url = "<?php echo U('Home/Details/closing_record');?>";//成交记录
+		var bubefor="<?php echo U('home/Buy/before');?>";
+		var buyUrl="<?php echo U('home/buy/buy');?>";
 	</script>
 	<script src="/work/Public/bootstrap/js/jquery.min.js"></script>
   	<script src="/work/Public/bootstrap/js/bootstrap.min.js"></script>

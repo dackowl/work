@@ -79,7 +79,7 @@ var transform = function(data) {
   return $.param(data);
 }
 $login="<?php echo ($login["id"]); ?>";
-console.log($login);
+// console.log($login);
 if($login!=""){
     $('.other').hide();
     $('.out').show();
@@ -119,7 +119,7 @@ function out(){
 				                <a href="#" class="dropdown-toggle" data-toggle="dropdown">更多<b class="caret"></b></a>
 				                <ul class="dropdown-menu">
 				                    <li><a href="#">我的收藏</a></li>
-				                    <li><a href="#">我的订单</a></li>
+				                    <li><a href="<?php echo U('Dingdan/index');?>">我的订单</a></li>
 				                    <li><a href="#">常用信息</a></li>
 				                </ul>
 				            </li>
@@ -238,7 +238,9 @@ function out(){
 	</div>
 	<!-- 底部版本信息等 -->
 	<footer>
-	Contact USTel：400-839-8080E-mail：cs@sojump.com			
+	<div class="container">
+		<h4 style="color: white">Contact USTel：400-839-8080E-mail：cs@sojump.com	</h4>
+	</div>		
 </footer>
 	
 </body>

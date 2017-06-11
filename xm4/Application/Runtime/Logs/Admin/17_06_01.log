@@ -1,0 +1,38 @@
+[ 2017-06-01T09:19:16+08:00 ] ::1 /xm4/index.php/admin/staff/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2017-06-01T09:19:16+08:00 ] ::1 /xm4/index.php/Admin/staff/nowpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `mf_wo`.`mf_staff` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mf_wo.mf_staff LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in F:\wamp\www\xm4\Application\Admin\Controller\StaffController.class.php on line 32 and defined F:\wamp\www\xm4\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field F:\wamp\www\xm4\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field F:\wamp\www\xm4\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM mf_wo.mf_staff ORDER BY s_id LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mf_rolestable` [ RunTime:0.0087s ]
+SQL: SELECT `r_id`,`rolesname` FROM `mf_rolestable`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_usest` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `mf_usest`  [ RunTime:0.0004s ]
+

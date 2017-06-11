@@ -207,7 +207,9 @@ function out(){
 	text-align: center;" target="view_window">联系<br/>客服</a>
 	<!-- 底部版本信息等 -->
 	<footer>
-	Contact USTel：400-839-8080E-mail：cs@sojump.com			
+	<div class="container">
+		<h4 style="color: white">Contact USTel：400-839-8080E-mail：cs@sojump.com	</h4>
+	</div>		
 </footer>
 </body>
 <script src="/work/Public/Home/JS/home.js" type="text/javascript" charset="utf-8"></script>

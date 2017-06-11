@@ -30,6 +30,28 @@ var transform = function(data) {
 var app = angular.module('myApp', []);
 app.controller('validateCtrl', function($scope, $http) {
     //获取详情介绍
+    $scope.p_id = pro_id;
+    $scope.u_id = $login;
+    console.log($scope.u_id);
+    $http({
+        url: bubefor,
+        method: 'post',
+        data: {
+            p_id: $scope.p_id,
+            u_id: $scope.u_id
+        },
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        transformRequest: transform
+    }).then(function(res) {
+        //console.log(res.data);
+        if (res.data.status == 0) {
+            alert(res.data.msg);
+        }
+    }).catch(function(err) {
+        console.log(err);
+    });
     $http({
         url: eventDetails_url,
         method: 'post',
@@ -128,7 +150,7 @@ app.controller('validateCtrl', function($scope, $http) {
             alert('请先完善信息');
         } else {
             $http({
-                url: "{:U('home/pro/buy')}",
+                url: buyUrl,
                 method: 'post',
                 data: {
                     p_id: $scope.p_id,
@@ -139,12 +161,11 @@ app.controller('validateCtrl', function($scope, $http) {
                 },
                 transformRequest: transform
             }).then(function(res) {
-                console.log(res.data);
-                // if (res.data.rol == 0) {
-                //   alert(res.data.Msg);
-                // }else{
-                //   alert(res.data.Msg);
-                // }
+                //console.log(res.data);
+                alert(res.data.msg);
+                if (res.data.status == 2) {
+                    location.reload();
+                }
             }).catch(function(err) {
                 console.log(err);
             });
