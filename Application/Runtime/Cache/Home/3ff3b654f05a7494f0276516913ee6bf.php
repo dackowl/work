@@ -103,7 +103,7 @@ function out(){
 				<h1>{{res.s_name}}</h1>
 				<div class="item_fix">
 					<!--关键词-->
-				</div>
+				</div> 
 				<div class="item_price">
 					<ul style="padding:0 0 0 10px;">
 						<li><span>￥</span><strong>{{res.s_pri}}</strong>起/人</li>
@@ -233,6 +233,8 @@ function out(){
 	</div>
 </body>
 	<script>
+		var pro_id="<?php echo ($pro); ?>";
+		console.log(pro_id);
 		var eventDetails_url = "<?php echo U('Home/Details/Details');?>";
 		var closing_record_url = "<?php echo U('Home/Details/closing_record');?>";//成交记录
 	</script>

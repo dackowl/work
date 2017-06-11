@@ -23,13 +23,13 @@ class DetailsController extends Controller {
     			exit();
     		}
     	}else{
-            $id= I('get.id','');
-            if (!empty($id)) {
+            $pid= I('get.id','');
+            if (!empty($pid)) {
                 if (session('?login')) {
                     $id=session('login');
                     $this->assign('login',$id);
                 }
-                $this->assign('pro',$id);
+                $this->assign('pro',$pid);
                 $this->display();  
             }else{
                 $this->error('地址错误',U('User/home'),3);

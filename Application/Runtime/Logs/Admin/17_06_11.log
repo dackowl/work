@@ -1390,3 +1390,38 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
 
+[ 2017-06-11T21:56:15+08:00 ] ::1 /work/index.php/admin/staff/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2017-06-11T21:56:15+08:00 ] ::1 /work/index.php/Admin/staff/nowpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `mf_staff` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_staff` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `mf_staff` ORDER BY s_id LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `mf_rolestable` [ RunTime:0.0045s ]
+SQL: SELECT `r_id`,`rolesname` FROM `mf_rolestable`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mf_usest` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `mf_usest`  [ RunTime:0.0005s ]
+

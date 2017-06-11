@@ -34,7 +34,7 @@ app.controller('validateCtrl', function($scope, $http) {
         url: eventDetails_url,
         method: 'post',
         data: {
-            s_id: 5,
+            s_id: pro_id,
         },
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
