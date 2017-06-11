@@ -1,0 +1,707 @@
+[ 2017-06-11T14:15:49+08:00 ] ::1 /work/index.php/Home/Travel/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000366s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000566s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002394s ]
+
+[ 2017-06-11T14:17:01+08:00 ] ::1 /work/index.php/Home/Publish/Publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-06-11T14:19:15+08:00 ] ::1 /work/index.php/Home/Publish/Publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-06-11T14:21:00+08:00 ] ::1 /work/index.php/Home/Publish/Publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-06-11T14:21:36+08:00 ] ::1 /work/index.php/Home/Publish/picturePreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-11T14:21:36+08:00 ] ::1 /work/index.php/Home/Publish/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `mf_travel` [ RunTime:0.0378s ]
+SQL: INSERT INTO `mf_travel` (`t_great`,`t_make`,`t_des`,`t_uid`,`t_title`,`t_con`) VALUES ('0','0','1','1','游记1','111111') [ RunTime:0.0237s ]
+NOTIC: [8] Undefined variable: powerArr /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/PublishController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: menuData /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/PublishController.class.php 第 44 行.
+
+[ 2017-06-11T14:25:53+08:00 ] ::1 /work/index.php/Home/Publish/picturePreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2017-06-11T14:25:53+08:00 ] ::1 /work/index.php/Home/Publish/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `mf_travel` [ RunTime:0.0043s ]
+SQL: INSERT INTO `mf_travel` (`t_great`,`t_make`,`t_des`,`t_uid`,`t_title`,`t_con`) VALUES ('0','0','1','1','游记1','111111') [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: powerArr /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/PublishController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: menuData /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/PublishController.class.php 第 44 行.
+
+[ 2017-06-11T14:26:29+08:00 ] ::1 /work/index.php/Home/User/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/UserController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-06-11T14:26:39+08:00 ] ::1 /work/index.php/Home/User/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/UserController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-06-11T14:26:49+08:00 ] ::1 /work/index.php/Home/User/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/UserController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-06-11T14:26:58+08:00 ] ::1 /work/index.php/Home/User/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/UserController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-06-11T14:27:20+08:00 ] ::1 /work/index.php/Home/User/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-06-11T14:32:06+08:00 ] ::1 /work/index.php/Home/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0043s ]
+SQL: SELECT `s_id`,`s_details`,`s_img`,`s_pri` FROM `mf_shop`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-06-11T14:32:07+08:00 ] ::1 /work/index.php/Home/shop/nowpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_shop` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `mf_shop` LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2017-06-11T14:32:14+08:00 ] ::1 /work/index.php/Home/Details/Details.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-06-11T14:32:15+08:00 ] ::1 /work/index.php/Home/Details/Details.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-11T14:32:15+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0058s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-11T14:32:30+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 5,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0040s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:31+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 10,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0043s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:31+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 15,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0041s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:31+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 20,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0042s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:31+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 25,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0044s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:34+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 20,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0043s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:34+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 15,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0041s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:34+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 10,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0040s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:34+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 5,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0037s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:32:34+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0037s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-11T14:42:08+08:00 ] ::1 /work/index.php/Home/Travel/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-06-11T14:42:33+08:00 ] ::1 /work/index.php/Home/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0045s ]
+SQL: SELECT `s_id`,`s_details`,`s_img`,`s_pri` FROM `mf_shop`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-06-11T14:42:33+08:00 ] ::1 /work/index.php/Home/shop/nowpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_shop` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mf_shop` LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2017-06-11T14:42:36+08:00 ] ::1 /work/index.php/Home/Details/Details.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-06-11T14:42:36+08:00 ] ::1 /work/index.php/Home/Details/Details.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-11T14:42:36+08:00 ] ::1 /work/index.php/Home/Details/closing_record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `mf_orderlist` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mf_orderlist` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mf_orderlist` ORDER BY ol_id LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `mf_user` [ RunTime:0.0038s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=3 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `s_name` FROM `mf_shop` WHERE ( s_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `account` FROM `mf_user` WHERE ( u_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-06-11T14:42:43+08:00 ] ::1 /work/index.php/Home/User/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Array to string conversion /Users/hunkhe/Desktop/hf161028/work/Application/Runtime/Cache/Home/3c2cb086f96d013b5e3406943f509c9c.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2017-06-11T14:42:43+08:00 ] ::1 /work/index.php/Home/Pro/scech.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0054s ]
+SQL: SELECT `s_id`,`s_name`,`s_pri`,`s_img`,`s_num` FROM `mf_shop` WHERE `s_num` > 0 ORDER BY s_num LIMIT 4   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/ProController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-06-11T15:07:16+08:00 ] ::1 /work/index.php/Home/Travel/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-06-11T15:07:20+08:00 ] ::1 /work/index.php/Home/Pro/scech.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0051s ]
+SQL: SELECT `s_id`,`s_name`,`s_pri`,`s_img`,`s_num` FROM `mf_shop` WHERE `s_num` > 0 ORDER BY s_num LIMIT 4   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/ProController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-06-11T15:07:22+08:00 ] ::1 /work/index.php/Home/Publish/Publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2017-06-11T15:07:54+08:00 ] ::1 /work/index.php/Home/Pro/scech.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `mf_shop` [ RunTime:0.0051s ]
+SQL: SELECT `s_id`,`s_name`,`s_pri`,`s_img`,`s_num` FROM `mf_shop` WHERE `s_num` > 0 ORDER BY s_num LIMIT 4   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/ProController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
