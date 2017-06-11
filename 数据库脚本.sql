@@ -30,10 +30,10 @@ create table mf_user(
 	lasttime timestamp, #登陆时间
 	foreign key (u_st) references MF_useSt(s_id)
 )ENGINE=INNODB DEFAULT CHARSET=utf8;
-insert into MF_user(account,pwd,nick,email,qq,u_money,u_st)values('admin',123456,'恩恩','229269101@qq.com',229269101,999,1);
-insert into MF_user(account,pwd,nick,email,qq,u_money,u_st)values('admin',123456,'恩恩','229269101@qq.com',229269101,999,1);
-insert into MF_user(account,pwd,nick,email,qq,u_money,u_st)values('admin',123456,'恩恩','229269101@qq.com',229269101,999,1);
-insert into MF_user(account,pwd,nick,email,qq,u_money,u_st)values('admin',123456,'恩恩','229269101@qq.com',229269101,999,1);
+insert into MF_user(account,pwd,nick,email,qq,u_money,u_st)values('admin1',123456,'恩恩1','229269101@qq.com',229269101,999,1);
+insert into MF_user(account,pwd,nick,email,qq,u_money,u_st)values('admin2',123456,'恩恩2','229269101@qq.com',229269101,999,1);
+insert into MF_user(account,pwd,nick,email,qq,u_money,u_st)values('admin3',123456,'恩恩3','229269101@qq.com',229269101,999,1);
+insert into MF_user(account,pwd,nick,email,qq,u_money,u_st)values('admin4',123456,'恩恩4','229269101@qq.com',229269101,999,1);
 
 
 
@@ -127,12 +127,6 @@ create table mf_shop(
 	s_addtime timestamp not null default current_timestamp #发布时间
 )ENGINE=INNODB DEFAULT CHARSET=utf8;
 
-INSERT INTO mf_shop(s_name,s_img,s_pri,s_details,s_sum,s_num,s_des)VALUES('暑期', 'adr_41.jpg','1111','曼谷','100','65','曼谷');
-INSERT INTO mf_shop(s_name,s_img,s_pri,s_details,s_sum,s_num,s_des)VALUES('暑期1', 'adr_42.jpg','2222','曼谷','100','65','曼谷');
-INSERT INTO mf_shop(s_name,s_img,s_pri,s_details,s_sum,s_num,s_des)VALUES('暑期2', 'adr_43.jpg','5555','曼谷','100','65','曼谷');
-INSERT INTO mf_shop(s_name,s_img,s_pri,s_details,s_sum,s_num,s_des)VALUES('暑期3', 'adr_44.jpg','3333','曼谷','100','65','曼谷');
-INSERT INTO mf_shop(s_name,s_img,s_pri,s_details,s_sum,s_num,s_des)VALUES('暑期4', 'adr_45.jpg','7777','曼谷','100','65','曼谷');
-INSERT INTO mf_shop(s_name,s_img,s_pri,s_details,s_sum,s_num,s_des)VALUES('暑期5', 'adr_46.jpg','6666','曼谷','100','65','曼谷');
 DROP TABLE IF EXISTS `MF_st`;
 create table MF_st(
 	s_id int(1) auto_increment primary key,	
@@ -264,46 +258,7 @@ create table MF_link(
 insert into MF_link(f_adr,f_name) values('http://china.makepolo.com','马可波罗');
 insert into MF_link(f_adr,f_name) values('http://www.onlylady.com','Onlylady女人志');
 insert into MF_link(f_adr,f_name) values('http://trip.elong.com','艺龙旅游指南');
-insert into MF_link(f_adr,f_name) values('http://www.cncn.com','欣欣旅游网');
-insert into MF_link(f_adr,f_name) values('http://www.8264.com','户外运动');
-insert into MF_link(f_adr,f_name) values('http://www.yue365.com','365音乐网');
-insert into MF_link(f_adr,f_name) values('http://ishare.iask.sina.com.cn','爱问共享资料');
-insert into MF_link(f_adr,f_name) values('http://www.uzai.com','旅游网');
-insert into MF_link(f_adr,f_name) values('http://www.zongheng.com','小说网');
-insert into MF_link(f_adr,f_name) values('http://www.yue365.com','学习啦');
-insert into MF_link(f_adr,f_name) values('http://www.yododo.com','游多多自助游');
-insert into MF_link(f_adr,f_name) values('http://www.gebilaoshi.com','教育');
-insert into MF_link(f_adr,f_name) values('http://www.yue365.com','365音乐网');
-insert into MF_link(f_adr,f_name) values('http://huoche.mafengwo.cn','火车时刻表');
-insert into MF_link(f_adr,f_name) values('http://www.lvmama.com','驴妈妈旅游网');
-insert into MF_link(f_adr,f_name) values('http://www.haodou.com','好豆美食网');
-insert into MF_link(f_adr,f_name) values('http://www.taoche.com','二手车');
-insert into MF_link(f_adr,f_name) values('http://www.lvye.cn','绿野户外');
-insert into MF_link(f_adr,f_name) values('http://www.tuniu.com','途牛旅游网');
-insert into MF_link(f_adr,f_name) values('http://www.mapbar.com','图吧');
-insert into MF_link(f_adr,f_name) values('http://www.chnsuv.com','SUV联合越野');
-insert into MF_link(f_adr,f_name) values('http://www.uc.cn','手机浏览器');
-insert into MF_link(f_adr,f_name) values('http://sh.city8.com','上海地图');
-insert into MF_link(f_adr,f_name) values('http://www.tianqi.com','天气预报查询');
-insert into MF_link(f_adr,f_name) values('http://www.ly.com','同程旅游');
-insert into MF_link(f_adr,f_name) values('http://www.tieyou.com','火车票');
-insert into MF_link(f_adr,f_name) values('http://you.ctrip.com','携程旅游');
-insert into MF_link(f_adr,f_name) values('http://www.jinjiang.com','锦江旅游');
-insert into MF_link(f_adr,f_name) values('http://www.huoche.net','火车时刻表');
-insert into MF_link(f_adr,f_name) values('http://www.tripadvisor.cn','TripAdvisor');
-insert into MF_link(f_adr,f_name) values('http://www.tianxun.com','天巡网');
-insert into MF_link(f_adr,f_name) values('http://www.zizaike.com','自在客');
-insert into MF_link(f_adr,f_name) values('http://www.zuzuche.com','租租车');
-insert into MF_link(f_adr,f_name) values('http://www.5fen.com','五分旅游网');
-insert into MF_link(f_adr,f_name) values('http://www.zhuna.cn','酒店预订');
-insert into MF_link(f_adr,f_name) values('http://www.ailvxing.com','爱旅行网');
-insert into MF_link(f_adr,f_name) values('http://360.mafengwo.cn/all.php','旅游');
-insert into MF_link(f_adr,f_name) values('http://vacations.ctrip.com','旅游网');
-insert into MF_link(f_adr,f_name) values('http://www.wed114.cn','wed114结婚网');
-insert into MF_link(f_adr,f_name) values('http://www.chexun.com','车讯网');
-insert into MF_link(f_adr,f_name) values('http://www.aoyou.com','遨游旅游网');
-insert into MF_link(f_adr,f_name) values('http://www.91.com','手机');
-insert into MF_link(f_adr,f_name) values('http://www.mafengwo.cn/s/link.html','更多友情链接&gt;&gt;');
+
 -- 订单状态表
 drop table if exists MF_orderstate;
 create table mf_orderstate(
