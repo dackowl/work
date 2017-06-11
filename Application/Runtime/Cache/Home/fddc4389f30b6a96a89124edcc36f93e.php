@@ -80,7 +80,7 @@ var transform = function(data) {
   return $.param(data);
 }
 $login="<?php echo ($login["id"]); ?>";
-console.log($login);
+// console.log($login);
 if($login!=""){
     $('.other').hide();
     $('.out').show();

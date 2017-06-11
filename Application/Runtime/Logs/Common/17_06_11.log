@@ -184,3 +184,45 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
 ERR: 无法加载模块:Public
 
+[ 2017-06-11T21:04:41+08:00 ] ::1 /work/index.php/application/views/creatSalesVi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+ERR: 无法加载模块:Application
+
+[ 2017-06-11T21:05:14+08:00 ] ::1 /work/Public/lwd/edit/img/%7B%7Bpro.d_img%7D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T21:05:14+08:00 ] ::1 /work/Public/lwd/edit/img/%7B%7Bpro.d_img%7D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T21:05:15+08:00 ] ::1 /work/Public/lwd/edit/img/%7B%7Bpro.d_img%7D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T21:05:26+08:00 ] ::1 /work/Public/lwd/js/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T21:05:39+08:00 ] ::1 /work/Public/lwd/js/angular.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003113s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-11T21:05:55+08:00 ] ::1 /work/Public/lwd/edit/img/%7B%7Bpro.d_img%7D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Public
+

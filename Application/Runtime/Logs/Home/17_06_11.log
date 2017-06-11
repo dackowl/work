@@ -705,3 +705,93 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
 
+[ 2017-06-11T20:57:51+08:00 ] ::1 /work/index.php/Home/User/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2017-06-11T21:03:47+08:00 ] ::1 /work/index.php/Home/User/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant AJAX_MSG - assumed 'AJAX_MSG' /Users/hunkhe/Desktop/hf161028/work/Application/Home/Controller/UserController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-06-11T21:05:26+08:00 ] ::1 /work/index.php/Home/Des/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `mf_des` [ RunTime:0.0061s ]
+SQL: SELECT `d_id`,`d_city` FROM `mf_des` WHERE ( d_area=1 and d_st=1 )  [ RunTime:0.0024s ]
+SQL: SELECT `d_id`,`d_city` FROM `mf_des` WHERE ( d_area=2 and d_st=1 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `mf_area` [ RunTime:0.0040s ]
+SQL: SELECT `a_id`,`a_name` FROM `mf_area`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mf_st` [ RunTime:0.0039s ]
+SQL: SELECT `s_id`,`s_name` FROM `mf_st` WHERE ( s_id=3 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: Area /Users/hunkhe/Desktop/hf161028/work/Application/Runtime/Cache/Home/fddc4389f30b6a96a89124edcc36f93e.php 第 220 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-06-11T21:05:37+08:00 ] ::1 /work/index.php/Home/Des/sub.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `mf_des` [ RunTime:0.0041s ]
+SQL: INSERT INTO `mf_des` (`d_city`,`d_st`,`d_area`,`d_con`,`d_man`) VALUES ('111','3','1','12121','1') [ RunTime:0.0031s ]
+
+[ 2017-06-11T21:05:39+08:00 ] ::1 /work/index.php/Home/Des/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `mf_des` [ RunTime:0.0057s ]
+SQL: SELECT `d_id`,`d_city` FROM `mf_des` WHERE ( d_area=1 and d_st=1 )  [ RunTime:0.0009s ]
+SQL: SELECT `d_id`,`d_city` FROM `mf_des` WHERE ( d_area=2 and d_st=1 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `mf_area` [ RunTime:0.0030s ]
+SQL: SELECT `a_id`,`a_name` FROM `mf_area`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mf_st` [ RunTime:0.0028s ]
+SQL: SELECT `s_id`,`s_name` FROM `mf_st` WHERE ( s_id=3 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: Area /Users/hunkhe/Desktop/hf161028/work/Application/Runtime/Cache/Home/fddc4389f30b6a96a89124edcc36f93e.php 第 220 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
