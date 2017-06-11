@@ -338,8 +338,8 @@ DROP TABLE IF EXISTS `mf_comment`;
 CREATE TABLE `mf_comment` (
   account varchar(100), #账号
   d_city varchar(72) not null, #目的地名称
-  create_time datetime , #评论或回复发表时间
+  create_time timestamp not null default current_timestamp, #评论或回复发表时间
   content text #评论内容
 ) ENGINE=INNODB;
-insert into mf_comment(account,d_city,create_time,content)values("李四","北京","now()","评论内容");
-insert into mf_comment(account,d_city,create_time,content)values("张三","北京","now()","评论内容2");
+insert into mf_comment(account,d_city,content)values("李四","北京","评论内容");
+insert into mf_comment(account,d_city,content)values("张三","北京","评论内容2");
